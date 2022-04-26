@@ -1,0 +1,45 @@
+div.mainMenu {
+	background-color: #132238;
+	overflow: hidden;
+	color:white;
+	font-family: sans-serif;
+	box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+	margin-bottom: 30px;
+	font-size: 20px;
+
+	& > * {
+		padding: 25px 40px;
+		float: left;
+	}
+
+	div.userData {
+		float: right;
+
+		svg {
+			cursor: pointer;
+			color: rgb(202, 52, 52);
+			font-size: 20px;
+			margin-left: 15px;
+		}
+	}
+}
+
+// div.mainMenu li{
+// 	float:left;
+// }
+
+// div.mainMenu li div{
+// 	padding: 20px;
+// 	cursor: pointer;
+// }
+
+// div.mainMenu li:hover{
+// 	background-color: #536888;
+// 	transition-duration: 1000ms;
+// }
+
+// div.mainMenu span{
+// 	margin: 20px 0px 0px 20px;
+// 	font-size: 20px;
+// 	display:block;
+// }

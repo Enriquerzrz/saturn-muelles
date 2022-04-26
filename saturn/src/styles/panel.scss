@@ -1,0 +1,54 @@
+body{
+    background-color: #EBF0F6;
+    color: #132238;
+    font-family: sans-serif;
+}
+#vertical-tabpanel-1{
+    width: 100%;
+}
+#right{  
+    text-align: right;
+}  
+
+div.barrierControl{
+    width: 100%;
+
+    div.barrier_1{
+        flex: 1;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+
+    div.barrier_2{
+        flex: 1;
+
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+}
+
+div.history{
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    margin-bottom: 20px;
+}

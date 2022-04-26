@@ -1,0 +1,165 @@
+body{
+    background-color: #EBF0F6;
+    color: #132238;
+    font-family: sans-serif;
+}
+
+div.loginForm{
+    text-align: center;
+    display: block;
+}
+
+div.loginButton{
+    display: block;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+div.loginColor{
+    background-color: #98CCD3;
+    color: white;
+}
+
+div.loginColor:hover{
+    background-color: #b1eaf1;
+    transition-duration: 1000ms;
+    color: white;
+}
+
+div.registerColor{
+    background-color: #364E68;
+    color: white;
+}
+
+div.registerColor:hover{
+    transition-duration: 1000ms;
+    background-color: #6490be;
+    color: white;
+}
+
+form.loginForm{
+    text-align:center;
+    margin: 10px auto;
+    display: block;
+    font-family: sans-serif;
+}
+
+input.inputField{
+    width: 30%;
+    margin: 10px auto;
+    display: block;
+    padding: 20px;
+    background-color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+
+div.vehicleSelector{
+    margin:10px auto 20px auto;
+    display:flex;
+    width: 30%;
+}
+
+div.vehicleSelector label{
+    flex: auto;
+    margin:auto 10px;
+}
+
+div.vehicleSelector select{
+    flex: auto;
+    margin:0px 10px;
+}
+
+input.postButton {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+    border-radius: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input.postButtonColor {
+    background-color: #364E68;
+    color: white;
+}
+
+input.postButtonColor:hover {
+    transition-duration: 1000ms;
+    background-color: #6490be;
+    color: white;
+}
+
+
+select.vehicleSelector{
+    display: block;
+    padding: 10px 20px;
+    background-color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+
+li.home{
+    background-color: #132238;
+}
+
+li.login{
+    background-color: #132238;
+}
+
+div.wrongUser{
+    color: rgb(197, 0, 0);
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-duration: .5s;
+    animation-delay: 0.25s;
+  }
+  
+  /* This approximates the ease-in-out-bounce animation from easings.net, which would require a plug-in to use*/
+ @keyframes bounce {
+    0% {
+      transform: translateX(0px);
+      timing-function: ease-in;
+    }
+    37% {
+      transform: translateX(12px);
+      timing-function: ease-out;
+    }
+    55% {
+      transform: translateX(-12px);
+      timing-function: ease-in;
+    }
+    73% {
+      transform: translateX(8px);
+      timing-function: ease-out;
+    }
+    82% {
+      transform: translateX(-8px);
+      timing-function: ease-in;
+    }
+    91% {
+      transform: translateX(4px);
+      timing-function: ease-out;
+    }
+    96% {
+      transform: translateX(-4px);
+      timing-function: ease-in;
+    }
+    100% {
+      transform: translateX(0px);
+      timing-function: ease-in;
+    }
+}

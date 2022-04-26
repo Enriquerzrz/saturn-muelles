@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  fulgencio:
+    build: .
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid
+    volumes:
+      - .:/home/app:rw
+    ports:
+      - 3001:3000

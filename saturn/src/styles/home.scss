@@ -1,0 +1,63 @@
+div.App {
+	form.addForm {
+		position: fixed;
+		bottom: 175px;
+		right: 50px;
+		z-index: 1000;
+		background-color: #fff;
+		padding: 40px 30px;
+		border: 1px solid #132238;
+
+		h1 {
+			font-size: 1.5em;
+			margin-bottom: 20px;
+			font-weight: bold;
+		}
+
+		div.rowForm {
+			padding: 3px 0;
+
+			span {
+				margin-right: 5px;
+			}
+		}
+
+		div.confirmButton {
+            cursor: pointer;
+			padding: 16px 80px;
+			color: #FFF;
+			background-color: #04AA6D;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+
+		div.cancelButton {
+            cursor: pointer;
+			padding: 16px 80px;
+			color: #FFF;
+			background-color: rgb(255, 91, 91);
+		}
+	}
+
+	div.addButton {
+		width: 75px;
+		height: 75px;
+		border-radius: 50%;
+		background-color: #132238;
+		position: fixed;
+		bottom: 50px;
+		right: 50px;
+		z-index: 1000;
+		cursor: pointer;
+
+		svg {
+			color: #FFFFFF;
+			font-size: 50px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+		}
+	}
+}
